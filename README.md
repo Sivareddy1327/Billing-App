@@ -6,65 +6,68 @@ This is app for the store owners who wants to keep track of Customers, Products 
 
 ## Tech Stack
 
-javascript|ES6
-React js, Redux and reduc-thunk
-axios,React-router-dom,react-select,html2pdf.js,react icons
+- javascript|ES6
+- React js, Redux and reduc-thunk
+- axios,React-router-dom,react-select,html2pdf.js,react icons
 
 # Project DEMO
 
-Here you can see Live DEMO of the Application DEMO
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Here you can see Live DEMO of the Application DEMO
 
 # DEMO IMAGES
 
-Pending Images
+- Pending Images
 
 # FEATURES
-Backend
-   Backend is created with nodejs, 
-    Built by DCT Academy
-   
+- Backend
+   - Backend is created with nodejs, 
+    ,Built by DCT Academy.
+   - Reactjs used for implementing
+     server side manipulation.
+    
+- Authentication
+
+    - Authentication is implemented.
+    - User can register or login.
+    - Routing to login page after Sign up.
+    - Custom validation is implemented.
+ 
+ - Categories
+    
+    - Customers
+    - Products
+    - Bills
+    - Dashboard
+ 
+ - Customer
+ 
+   - The Logged in user/owner can able to add a customer.
+   - User can view added customer details in a Table.
+   - User can Update and Delete the customer details.
+   - custom validation is used.
+ 
+ - Products
+ 
+   - User can add products as many as want user.
+   - User can view added product details in a Table.
+   - User can Update product prices also.
+   - User can delete the product
+   - custom validation is used
+  
+ - Bills
+  
+   - In billing part user can add bills.
+   - Added bills can be view in Table.
+   - User can delete the bills.
+   - User can generate bill invoice and download it.
+ 
+ - Dashboard
+ 
+   - In dashboad user can view Daily Sales in graph.
+   - User can see Total of Customer,Products,Bills and Income.
+
+# Contributors
+
+Siva Reddy
 
 
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
