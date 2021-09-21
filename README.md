@@ -12,7 +12,7 @@ This is app for the store owners who wants to keep track of Customers, Products 
 
 # Project DEMO
 
-- Here you can see Live DEMO of the Application https://suspicious-raman-43bf66.netlify.app/
+- Here you can see Live DEMO of the Application https://suspicious-raman-43bf66.netlify.app
 
 # FEATURES
 - Backend
