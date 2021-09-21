@@ -28,7 +28,7 @@ const EditProducts = (props) => {
         if (productname.trim().length == 0) {
             errors.productname = 'cannot be blank'
         }
-        if (price.trim().length == 0) {
+        if (price.length == 0) {
             errors.price = 'cannot be blank'
         }
     }

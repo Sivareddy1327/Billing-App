@@ -30,7 +30,7 @@ const Productslist = (props) => {
 
     }
     const searchlist = productlist.filter((ele) => {
-        if (ele.name == search.toLowerCase()) {
+        if (ele.name.toLowerCase() == search.toLowerCase()) {
             return ele
         }
     })

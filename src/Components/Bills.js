@@ -170,7 +170,7 @@ const Bills = (props) => {
                     <button onClick={handleAddCart}>Add cart</button>
 
                     <br /><br />
-                    <input type='submit' />
+                    <input type='submit' value='Generate bill'/>
                 </form>
                 {lineItems.length != 0 &&
                     <table border='1'>

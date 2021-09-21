@@ -35,7 +35,7 @@ const Products = (props) => {
         if (productname.trim().length == 0) {
             errors.productname = 'cannot be blank'
         }
-        if (price.trim().length == 0) {
+        if (price.length == 0) {
             errors.price = 'cannot be blank'
         }
     }
@@ -91,7 +91,7 @@ const Products = (props) => {
                             onChange={handleChangeprice}
                             style={{ marginLeft: '10px' }}
                         /><br />
-                        {formerrors && <span style={{ color: 'red' }}>{formerrors.mobile}</span>}<br />
+                        {formerrors && <span style={{ color: 'red' }}>{formerrors.price}</span>}<br />
 
                         <input type='submit' value='Add Product' style={{ backgroundColor: 'gray', borderRadius: '4px', color: 'white' }} />
                     </form>

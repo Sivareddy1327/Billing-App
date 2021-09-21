@@ -83,7 +83,7 @@ const Login = (props) => {
                         value="login"
                         style={{ backgroundColor: 'gray', color: 'white', borderRadius: '4px' }}
                     />
-                    <button style={{marginLeft:'20px',borderRadius :'4px',color :'white',backgroundColor:'gray'}} onClick={handleClickRegister}>Register</button>
+                    <h4>Don't have account <a onClick={handleClickRegister} href='/' style={{textDecoration:'none'}}>Register</a></h4>
                 </form>
                 
             </div>

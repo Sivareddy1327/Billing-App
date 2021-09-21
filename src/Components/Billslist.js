@@ -57,7 +57,7 @@ const Billslist = (props) => {
         setSearchData(input)
 
         const data = customer.filter((ele) => {
-            if (ele.name == input.toLowerCase()) {
+            if (ele.name.toLowerCase() == input.toLowerCase()) {
                 return ele
             }
         })

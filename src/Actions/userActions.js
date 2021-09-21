@@ -4,7 +4,7 @@ import axios from 'axios'
 export const startPostuser = (formData, resetForm, redirectToLogin) => {
 
     return (dispatch) => {
-        axios.post("http://dct-billing-app.herokuapp.com/api/users/register", formData)
+        axios.post("https://dct-billing-app.herokuapp.com/api/users/register", formData)
             .then((response) => {
                 const user = response.data
                 if (user.hasOwnProperty('errors')) {
@@ -30,7 +30,7 @@ export const startPostuser = (formData, resetForm, redirectToLogin) => {
 export const startPostlogin = (formData, handleAuth, resetForm, redirectToAdmin) => {
 
     return (dispatch) => {
-        axios.post("http://dct-billing-app.herokuapp.com/api/users/login", formData)
+        axios.post("https://dct-billing-app.herokuapp.com/api/users/login", formData)
             .then((response) => {
                 const result = response.data
 

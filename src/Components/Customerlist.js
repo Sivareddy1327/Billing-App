@@ -29,7 +29,7 @@ const Customerlist = (props) => {
 
     }
     const searchlist = customerlist.filter((ele) => {
-        if (ele.name == search.toLowerCase()) {
+        if (ele.name.toLowerCase() == search.toLowerCase()) {
             return ele
         }
     })
