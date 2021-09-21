@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# BILLING-APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Billing Software is designed to keep track of sales and billing as well as invoicing customer for services and products.It helps the business owner's to view all data in Dashboard.In customer page and product page you can add, update and delete specified customer and product.Finally, You can generate bill invoice and download it.
 
-## Available Scripts
+This is app for the store owners who wants to keep track of Customers, Products and Bills.Using this app user can add and delete customers and products.In bills section user can select data,customer and multiple products.After the bill will be generate and he can download it. 
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- javascript|ES6
+- React js, Redux and reduc-thunk
+- axios,React-router-dom,react-select,html2pdf.js,react icons
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Project DEMO
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Here you can see Live DEMO of the Application DEMO
 
-### `npm test`
+# DEMO IMAGES
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Pending Images
 
-### `npm run build`
+# FEATURES
+- Backend
+   - Backend is created with nodejs, 
+    ,Built by DCT Academy.
+   - Reactjs used for implementing
+     server side manipulation.
+    
+- Authentication
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - Authentication is implemented.
+    - User can register or login.
+    - Routing to login page after Sign up.
+    - Custom validation is implemented.
+ 
+ - Categories
+    
+    - Customers
+    - Products
+    - Bills
+    - Dashboard
+ 
+ - Customer
+ 
+   - The Logged in user/owner can able to add a customer.
+   - User can view added customer details in a Table.
+   - User can Update and Delete the customer details.
+   - custom validation is used.
+ 
+ - Products
+ 
+   - User can add products as many as want user.
+   - User can view added product details in a Table.
+   - User can Update product prices also.
+   - User can delete the product
+   - custom validation is used
+  
+ - Bills
+  
+   - In billing part user can add bills.
+   - Added bills can be view in Table.
+   - User can delete the bills.
+   - User can generate bill invoice and download it.
+ 
+ - Dashboard
+ 
+   - In dashboad user can view Daily Sales in graph.
+   - User can see Total of Customer,Products,Bills and Income.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Contributors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Siva Reddy
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
