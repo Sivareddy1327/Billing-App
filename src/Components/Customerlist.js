@@ -63,7 +63,7 @@ const Customerlist = (props) => {
                                     <td className='td'>{ele.name}</td>
                                     <td className='td'>{ele.mobile}</td>
                                     <td className='td'>{ele.email}</td>
-                                    <td className='td'><button><MdEdit /></button><button onClick={() => { handleremove(ele._id) }}><MdDelete /></button></td>
+                                    <td className='td'><button onClick={() => { handleedit(ele) }}><MdEdit /></button><button onClick={() => { handleremove(ele._id) }}><MdDelete /></button></td>
                                 </tr>
                             })
 
